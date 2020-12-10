@@ -36,7 +36,7 @@ public class WhenShooting : MonoBehaviour
         }
 
         //reacts when trigger is pulled
-        if (OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger) && timer <=0 )
+        if ((OVRInput.GetDown(OVRInput.Button.SecondaryIndexTrigger) || OVRInput.GetDown(OVRInput.Button.PrimaryIndexTrigger)) && timer <=0 )
         {
             timer = delay;
         }
