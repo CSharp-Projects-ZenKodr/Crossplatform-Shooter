@@ -1,4 +1,0 @@
-#Thu Dec 10 11:58:52 AEDT 2020
-base.0=C\:\\Users\\pc1\\Documents\\GitHub\\Crossplatform-Shooter\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
-path.0=classes.dex
-renamed.0=classes.dex
